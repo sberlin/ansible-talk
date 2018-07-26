@@ -1,0 +1,11 @@
+---
+
+- hosts: workstation
+  become: yes
+  become_user: root
+  roles:
+    - role: git
+      vars:
+        username: vagrant
+        username_git: sberlin
+
