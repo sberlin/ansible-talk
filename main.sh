@@ -1,4 +1,5 @@
-# Recorded with the doitlive recorder
+#Ansible talk by sberlin
+
 #doitlive shell: /bin/zsh
 #doitlive prompt: default
 #doitlive speed: 3
