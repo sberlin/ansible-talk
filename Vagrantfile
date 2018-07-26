@@ -67,5 +67,6 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+  ENV['LC_ALL']="en_US.UTF-8"
   config.vm.provider "virtualbox"
 end
