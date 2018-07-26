@@ -6,6 +6,17 @@
 #doitlive alias: ssh="vagrant ssh"
 #doitlive alias: ansible-playbook="vagrant up --provision-with $PLAYBOOK | grep PLAY -A 99 #"
 
+#                       _ _     _
+#       /\             (_) |   | |
+#      /  \   _ __  ___ _| |__ | | ___
+#     / /\ \ |  _ \/ __| |  _ \| |/ _ |
+#    / ____ \| | | \__ \ | |_) | |  __/
+#   /_/    \_\_| |_|___/_|_.__/|_|\___|
+#
+#
+
+:
+
 #
 #Ansible for admins
 #
