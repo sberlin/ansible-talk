@@ -78,9 +78,15 @@ Vagrant.configure("2") do |config|
           "machines" => "machine[0:2]",
           "machines:vars" => {
             "ansible_python_interpreter" => "/usr/bin/python3"
-          }
+          },
+          "nodes" => "machine[1:2]"
         }
-        config.vm.provision "ansible"
+        config.vm.provision "playbook_moo.yml", type: "ansible" do |ansible|
+          ansible.playbook = "playbook_moo.yml"
+          ansible.limit = limit
+          ansible.groups = groups
+        end
+      end
     end
   end
 end

@@ -1,0 +1,11 @@
+---
+
+- hosts: nodes
+  become: yes
+  become_user: root
+  tasks:
+    - name: install something
+      package:
+        name: cowsay
+        state: present
+
