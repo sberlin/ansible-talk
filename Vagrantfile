@@ -69,4 +69,9 @@ Vagrant.configure("2") do |config|
   # SHELL
   ENV['LC_ALL']="en_US.UTF-8"
   config.vm.provider "virtualbox"
+  (0..2).each do |i|
+    config.vm.define "machine#{i}" do |node|
+      node.vm.hostname = "machine#{i}"
+    end
+  end
 end
