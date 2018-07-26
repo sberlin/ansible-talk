@@ -1,0 +1,13 @@
+---
+
+- hosts: victims
+  become: yes
+  become_user: root
+  gather_facts: true
+  tasks:
+    - name: create something
+      lineinfile:
+        name: /pwned.txt
+        line: Hi {{ ansible_fqdn }}, you have been pwned. Kernel {{ ansible_kernel }} is buggy
+        create: yes
+
