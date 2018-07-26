@@ -47,4 +47,20 @@ ssh machine0
 
 :
 
+#                                                  _   _
+#                                                 | | | |
+#    _ __   _____      _____ _ __ ___ _ __ ___  __| | | |__  _   _
+#   | '_ \ / _ \ \ /\ / / _ \ '__/ _ \ '__/ _ \/ _` | | '_ \| | | |
+#   | |_) | (_) \ V  V /  __/ | |  __/ | |  __/ (_| | | |_) | |_| |
+#   | .__/ \___/ \_/\_/ \___|_|  \___|_|  \___|\__,_| |_.__/ \__, |
+#   | |                                                       __/ |
+#   |_|                                                      |___/
+#http://www.patorjk.com/software/taag/#p=display&c=bash&f=Big&t=powered%20by
+#
+#                tmux https://github.com/tmux/tmux
+#           doitlive https://github.com/sloria/doitlive
+#                vagrant https://www.vagrantup.com
+#
+#           dotfiles https://github.com/sberlin/dotfiles
+#            dev-env https://github.com/sberlin/dev-env
 
