@@ -72,6 +72,15 @@ Vagrant.configure("2") do |config|
   (0..2).each do |i|
     config.vm.define "machine#{i}" do |node|
       node.vm.hostname = "machine#{i}"
+      if i == 2
+        limit = "all"
+        groups = {
+          "machines" => "machine[0:2]",
+          "machines:vars" => {
+            "ansible_python_interpreter" => "/usr/bin/python3"
+          }
+        }
+        config.vm.provision "ansible"
     end
   end
 end
