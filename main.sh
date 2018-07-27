@@ -75,4 +75,6 @@ ssh machine0
 #
 #           dotfiles https://github.com/sberlin/dotfiles
 #            dev-env https://github.com/sberlin/dev-env
+#
+#         this talk https://github.com/sberlin/ansible-talk
 
